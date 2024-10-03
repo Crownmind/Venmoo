@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif; /* Marvel-themed font */
+    background-image: url('64.jpg'); /* Use the uploaded file */
+    background-size: 390px; /* Fix the width to 390px */
+    background-repeat: repeat; /* Repeat the background image */
+    background-color: #1C1C1C; /* Deep Charcoal for full background */
+}
+
+.container {
+    text-align: center;
+    color: #FFDD00; /* Heroic Yellow for text */
+    padding-top: 50px;
+}
+
+.main-title {
+    font-size: 50px; /* Increased title size */
+    margin: 0;
+}
+
+.tagline {
+    margin-top: 20px;
+    font-size: 30px; /* Increased tagline size */
+    color: #FFFF00; /* Bright yellow for tagline */
+}
+
+.buttons-section {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column; /* Arrange buttons in a vertical column */
+    align-items: center; /* Center-align the buttons */
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #FF1E00; /* Heroic Red */
+    border: 2px solid #FECD1A; /* Gold Accent */
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    width: 200px; /* Fixed button width */
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background: #0B3D91; /* Heroic Blue on hover */
+  }
